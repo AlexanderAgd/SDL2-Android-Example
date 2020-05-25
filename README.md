@@ -7,10 +7,10 @@ Setup PATH to SDK and NDK in "local.properties" file
 sdk.dir=/home/user/ANDROID/ASDK
 ndk.dir=/home/user/ANDROID/NDK	
 </pre>
-Prepare SDL2 projects libraries - see link:
-[a link](https://github.com/AlexanderAgd/SDL2-Android)
+Prepare SDL2 projects libraries or download ready - see link:  
+[https://github.com/AlexanderAgd/SDL2-Android](https://github.com/AlexanderAgd/SDL2-Android)  
 and copy "lib" with your SDL2 compiled libraries to folder "app/cpp/lib". 
-Connect your Android device with "Developer mode" on and run command
+Connect your Android device with "Developer mode" ON and run command
 <pre>
 ./gradlew installDebug
 </pre>
