@@ -11,8 +11,8 @@
  * software, or work derived from it, under other terms.
  */
 
-#ifndef	_PARALLAX3_H_
-#define	_PARALLAX3_H_
+#ifndef	_PARALLAX4_H_
+#define	_PARALLAX4_H_
 
 #include "SDL.h"
 
@@ -93,4 +93,4 @@ void layer_link(layer_t *lr, layer_t *to_l, float ratio);
 void layer_render(layer_t *lr, SDL_Surface *screen, SDL_Rect *rect);
 void layer_reset_stats(layer_t *lr);
 
-#endif	/* _PARALLAX3_H_ */
+#endif	/* _PARALLAX4_H_ */

@@ -10,7 +10,7 @@ ndk.dir=/home/user/ANDROID/NDK
 Prepare SDL2 projects libraries or download ready - see link:  
 [https://github.com/AlexanderAgd/SDL2-Android](https://github.com/AlexanderAgd/SDL2-Android)  
 and copy "lib" with your SDL2 compiled libraries to folder "app/cpp/lib".  
-Fix path to SDL2 headers in the "app/cpp/Android.mk" file.    
+Fix path to SDL2 and SDL2_image headers in the "app/cpp/Android.mk" file, option "LOCAL_C_INCLUDES"    
 Connect your Android device with "Developer mode" ON and run command:
 <pre>
 ./gradlew build
